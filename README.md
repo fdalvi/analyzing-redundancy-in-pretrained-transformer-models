@@ -1,5 +1,12 @@
 # Analyzing Redundancy in Pretrained Transformer Models
 
+Code and instructions for the paper titled **Analyzing Redundancy in Pretrained Transformer Models** published at [EMNLP 2020](https://2020.emnlp.org). This codebase
+extensively uses several other toolkits, including:
+
+* [contextual-repr-analysis](https://github.com/nelson-liu/contextual-repr-analysis) for embedding extraction for sequence labelling tasks
+* [transformers](https://github.com/huggingface/transformers) for embedding extraction for sequence classification tasks
+* [aux_classifier](https://github.com/fdalvi/aux_classifier) for all layer and neuron level analysis
+
 ## Getting the Data
 ### Sequence Labeling
 The datasets for sequence labeling tasks can be downloaded from the following sources:
